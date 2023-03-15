@@ -17,5 +17,5 @@ const App = () => {
     </div>
   )
 }
-
+// the App component is exported so that it can be used in other parts of the application.
 export default App

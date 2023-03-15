@@ -9,6 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
+    //The navbar consists of a logo, a list of links, and a menu icon that appears on smaller screens. The links are created using an array of strings and the map method. The menu icon is animated using framer-motion. When the icon is clicked, the toggle state is set to true, and the menu is displayed. When the icon is clicked again, the toggle state is set to false, and the menu is hidden.
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.logo} alt="logo" />
@@ -21,7 +22,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
+        
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
 
